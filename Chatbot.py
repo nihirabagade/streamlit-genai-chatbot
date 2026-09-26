@@ -1,9 +1,9 @@
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import streamlit as st
 from langchain_groq import ChatGroq
 
 # load env variable
-load_dotenv()
+#load_dotenv()
 
 # streamlit page setup
 st.set_page_config(
